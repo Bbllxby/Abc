@@ -171,7 +171,7 @@ function Lib.Window(Title)
 	LibraryTitle.ZIndex = 5
 	LibraryTitle.FontFace = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.ExtraBold, Enum.FontStyle.Normal);
 	LibraryTitle.Text = "UI Lib"
-	LibraryTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+	LibraryTitle.TextColor3 = Color3.fromRGB(0, 0, 0)
 	LibraryTitle.TextScaled = true
 	LibraryTitle.TextSize = 37.000
 	LibraryTitle.TextWrapped = true
