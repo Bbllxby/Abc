@@ -63,7 +63,7 @@ function Lib.Window(Title)
 
 	--Properties:
 
-	UiLib.Name = "UiLib"
+	UiLib.Name = "Blxb | Test"
 	UiLib.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 	UiLib.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -296,7 +296,7 @@ function Lib.Window(Title)
 			ButtonFrame.Name = "ButtonFrame"
 			ButtonFrame.Parent = TabContent
 			ButtonFrame.Active = true
-			ButtonFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			ButtonFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			ButtonFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			ButtonFrame.BorderSizePixel = 0
 			ButtonFrame.ClipsDescendants = true
@@ -310,7 +310,7 @@ function Lib.Window(Title)
 
 			ButtonTrigger.Name = "ButtonTrigger"
 			ButtonTrigger.Parent = ButtonFrame
-			ButtonTrigger.BackgroundColor3 = Color3.fromRGB(53, 50, 74)
+			ButtonTrigger.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			ButtonTrigger.BackgroundTransparency = 1.000
 			ButtonTrigger.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			ButtonTrigger.BorderSizePixel = 0
@@ -330,7 +330,7 @@ function Lib.Window(Title)
 			TextLabel.ZIndex = 5
 			TextLabel.FontFace = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 			TextLabel.Text = BtnTitle
-			TextLabel.TextColor3 = Color3.fromRGB(227, 227, 227)
+			TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 			TextLabel.TextSize = 26.000
 			TextLabel.TextWrapped = true
 			TextLabel.TextXAlignment = Enum.TextXAlignment.Left
@@ -344,7 +344,7 @@ function Lib.Window(Title)
 			TouchImage.Position = UDim2.new(0.0590717308, -5, 0.1875, -2)
 			TouchImage.Size = UDim2.new(0, 22, 0, 22)
 			TouchImage.ZIndex = 5
-			TouchImage.Image = "rbxassetid://3926305904"
+			TouchImage.Image = "rbxassetid://17060611888"
 			TouchImage.ImageColor3 = Color3.fromRGB(228, 197, 255)
 			TouchImage.ImageRectOffset = Vector2.new(84, 204)
 			TouchImage.ImageRectSize = Vector2.new(36, 36)
@@ -500,9 +500,9 @@ function Lib.Window(Title)
 			ValueLabel.Position = UDim2.new(0.628692031, 0, 0.0416666679, -1)
 			ValueLabel.Size = UDim2.new(0, 88, 0, 32)
 			ValueLabel.ZIndex = 5
-			ValueLabel.FontFace = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+			ValueLabel.FontFace = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 			ValueLabel.Text = minvalue
-			ValueLabel.TextColor3 = Color3.fromRGB(227, 227, 227)
+			ValueLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 			ValueLabel.TextSize = 26.000
 			ValueLabel.TextWrapped = true
 			ValueLabel.TextTransparency = 1.000
@@ -562,7 +562,7 @@ function Lib.Window(Title)
 			ToggleFrame.Name = "ToggleFrame"
 			ToggleFrame.Parent = TabContent
 			ToggleFrame.Active = true
-			ToggleFrame.BackgroundColor3 = Color3.fromRGB(53, 50, 74)
+			ToggleFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			ToggleFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			ToggleFrame.BorderSizePixel = 0
 			ToggleFrame.ClipsDescendants = true
@@ -583,9 +583,9 @@ function Lib.Window(Title)
 			ToggleLabel.Position = UDim2.new(0.151898727, 0, 0, 0)
 			ToggleLabel.Size = UDim2.new(0, 193, 0, 32)
 			ToggleLabel.ZIndex = 5
-			ToggleLabel.FontFace = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+			ToggleLabel.FontFace = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 			ToggleLabel.Text = TogTXT
-			ToggleLabel.TextColor3 = Color3.fromRGB(227, 227, 227)
+			ToggleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 			ToggleLabel.TextSize = 26.000
 			ToggleLabel.TextWrapped = true
 			ToggleLabel.TextXAlignment = Enum.TextXAlignment.Left
