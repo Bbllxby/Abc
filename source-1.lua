@@ -162,7 +162,7 @@ function Lib.Window(Title)
 
 	LibraryTitle.Name = "LibraryTitle"
 	LibraryTitle.Parent = TopBar
-	LibraryTitle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	LibraryTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	LibraryTitle.BackgroundTransparency = 1.000
 	LibraryTitle.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	LibraryTitle.BorderSizePixel = 0
@@ -179,7 +179,7 @@ function Lib.Window(Title)
 
 	Extension.Name = "Extension"
 	Extension.Parent = TopBar
-	Extension.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	Extension.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Extension.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Extension.BorderSizePixel = 0
 	Extension.Position = UDim2.new(0.00652175443, -3, 0.994062245, 0)
