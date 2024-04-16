@@ -41,7 +41,7 @@ function Lib:Drag(frame,parent)
 end
 
 function Lib.Window(Title)
-	Title = Title or "Ui Library"
+	Title = Title or "Blxb | Test"
 
 	local UiLib = Instance.new("ScreenGui")
 	local Main = Instance.new("Frame")
@@ -82,8 +82,8 @@ function Lib.Window(Title)
 
 	TabFrame.Name = "TabFrame"
 	TabFrame.Parent = Main
-	TabFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-	TabFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	TabFrame.BackgroundColor3 = Color3.fromRGB(255,255, 255)
+	TabFrame.BorderColor3 = Color3.fromRGB(255, 255, 255)
 	TabFrame.BorderSizePixel = 0
 	TabFrame.Position = UDim2.new(0.0198237877, 0, 0.153153151, 0)
 	TabFrame.Size = UDim2.new(0, 134, 0, 275)
